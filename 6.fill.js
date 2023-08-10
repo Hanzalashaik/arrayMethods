@@ -1,6 +1,7 @@
-const arr=["suhail","roushan","musaib","sakina"];
+const arr = ["suhail", "roushan", "musaib", "sakina"];
 
-console.log(arr.fill(0));//[ 0, 0, 0, 0 ]
+console.log(arr.fill(0)); //[ 0, 0, 0, 0 ]
 
-const arr1=["hanzala","javed","ali","shaikh"];//[ 'hanzala', 'super', 'super', 'shaikh' ]
-console.log(arr1.fill("super",1,3));
+const arr1 = ["hanzala", "javed", "ali", "shaikh"]; //[ 'hanzala', 'super', 'super', 'shaikh' ]
+console.log(arr1.fill("super",      1,             3));
+                    //(value   ,start index,    end index)
