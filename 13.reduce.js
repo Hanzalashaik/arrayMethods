@@ -1,10 +1,19 @@
-const numbers=[1,2,3,4,5,6,7,8,9,10]
+const numbers=[1,2,3,4,5,10]
 
 const sum=numbers.reduce((accumulator,currentValue)=>{
     return accumulator+currentValue;
 })
 
 console.log(sum);
+
+//Tracking
+
+// accumulator     currentValue    return
+//     1                2            3
+//     3                3            6
+//     6                4            10
+//     10               5            15
+//     15               10           25
 
 //Real World Example
 
@@ -25,3 +34,5 @@ const totalPrice=users.reduce((productPrice,nextProduct)=>{
 },0)
 
 console.log(totalPrice);
+
+

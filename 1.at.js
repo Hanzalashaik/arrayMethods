@@ -12,3 +12,7 @@ let array=["hanzala","javed","ali","shaikh"];
 console.log(array.at(3));
 
 
+//find the last value .
+
+const ans=arr.at(-1)
+console.log(ans);
